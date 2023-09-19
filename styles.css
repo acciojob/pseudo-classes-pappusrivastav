@@ -1,27 +1,29 @@
 /*  your css code here. If applicable */
-body{
+:root{
 	background-color:rgb(135,206,235)
 }
-.black{
+p:first-child{
 	background-color:black;
 	color:white;
+	}
+p:nth-child(2){
+	color:inherit;
 }
-.red{
+p:last-child{
 	color:red;
 }
-.even{
-	background-color:white;
-	font-size:22px;
-	padding:10px;
-	width:50%;
-}
-.odd{
+li{
 	background-color:gray;
-		padding:10px;
 	width:50%;
+	padding:10px;
 }
-.pink{
+li:nth-child(odd){
+	background-color:white;
+}
+li:first-child,
+li:last-child{
+	font-size:22px;
+}
+li:nth-last-child(3){
 	background-color:pink;
-		padding:10px;
-	width:50%;
 }
