@@ -6,6 +6,9 @@ body{
 	background-color:black;
 	color:white;
 }
+.red{
+	color:red;
+}
 .even{
 	background-color:white;
 	font-size:22px;
